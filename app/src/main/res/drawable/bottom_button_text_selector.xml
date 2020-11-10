@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#535353" android:state_checked="false"></item>
+    <item android:color="#ff4040" android:state_checked="true"></item>
+</selector>
+
+<!-- selector 相当于选择器， 下面的item 代表selector可能的状态，当父控件处于不同状态(state_checked的值不同）时，会应用对应的颜色  ）-->

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Shixun">
-        <activity android:name=".MActivity">
+        <activity android:name=".MActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
 
         </activity>
         <!-- 隐藏标题栏 -->
